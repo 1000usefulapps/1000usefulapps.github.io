@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://1000usefulapps.github.io/sitemap.xml

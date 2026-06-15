@@ -1,3 +1,12 @@
-﻿# 1000usefulapps.github.io
+# 1000usefulapps.github.io
 
-Корневой GitHub Pages для \https://1000usefulapps.github.io/\ — здесь лежит [\pp-ads.txt\](./app-ads.txt) для AdMob.
+Official GitHub Pages website for **1000UsefulApps**:
+
+https://1000usefulapps.github.io/
+
+This repository hosts:
+
+- the official developer homepage;
+- app portfolio links;
+- privacy policy links for published apps;
+- `app-ads.txt` for AdMob.
