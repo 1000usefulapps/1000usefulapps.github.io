@@ -1,13 +1,18 @@
 # 1000usefulapps.github.io
 
-Official GitHub Pages website for **1000UsefulApps**:
+Legacy GitHub Pages host for **1000UsefulApps**.
 
-https://1000usefulapps.github.io/
+The canonical website is https://1000usefulapps.com/.
 
-This repository hosts:
+This repository remains published during migration:
 
-- the official developer homepage;
-- app portfolio links;
-- privacy policy links for published apps;
-- `app-ads.txt` for AdMob.
-- public exports of the canonical developer logo and cover from the private `1000UsefulAppsCore/brand-assets` repository.
+- The root and Freezer Tracker page use temporary HTML refresh redirects after
+  two seconds, with canonical URLs and ordinary fallback links. GitHub Pages
+  cannot emit an HTTP 302 from these static files; no permanent redirect is set.
+- `app-ads.txt` remains unchanged for existing AdMob crawler references.
+- Existing assets, separate legacy policy repositories, and Git history are
+  retained. Do not delete them as part of the website migration.
+
+Product privacy policies now use
+`https://1000usefulapps.com/privacy/apps/<app-slug>/`. Keep the separate legacy
+policy pages reachable until every Play listing migration has been verified.
